@@ -1,0 +1,28 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "ChatServer",
+            "request": "launch",
+            "mainClass": "ChatServer",
+            "projectName": "Real-Time Chat Application_c4cacc4f"
+        },
+        {
+            "type": "java",
+            "name": "ChatServer",
+            "request": "launch",
+            "mainClass": "com.example.ChatServer",
+            "projectName": "Real-Time Chat Application_c4cacc4f",
+            "vmArgs": "--module-path C:/Program Files/javafx-sdk-22.0.2/lib --add-modules javafx.controls,javafx.fxml"
+        },
+        {
+            "type": "java",
+            "name": "ChatClient",
+            "request": "launch",
+            "mainClass": "com.example.ChatClient",
+            "projectName": "Real-Time Chat Application_c4cacc4f",
+            "vmArgs": "--module-path C:/Program Files/javafx-sdk-22.0.2/lib --add-modules javafx.controls,javafx.fxml"
+        }
+    ]
+}
